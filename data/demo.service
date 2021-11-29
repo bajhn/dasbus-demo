@@ -1,0 +1,19 @@
+[Unit]
+Description=Demo Dbus interface
+Wants=sys-subsystem-net-devices-wwan0.device
+After=sys-subsystem-net-devices-wwan0.device
+Wants=ModemManager.service
+After=ModemManager.service
+Wants=systemd-networkd.service
+After=systemd-networkd.service
+
+[Service]
+Type=dbus
+Environment="LOG_LEVEL=DEBUG"
+ExecStart=/usr/bin/python3 -m mmg.demo_server
+BusName=com.example.demo
+Restart=on-failure
+SyslogFacility=local7
+
+[Install]
+WantedBy=multi-user.target
