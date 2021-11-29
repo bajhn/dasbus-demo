@@ -2,7 +2,7 @@ import signal
 from gi.repository import GLib
 from dasbus.server.interface import dbus_interface
 from dasbus.typing import Structure, Variant, Str
-from .demo_common import DEMO_SERVICE_ID, SYSTEM_BUS, ITERATION_REPORT, \
+from .dbdemo_common import DEMO_SERVICE_ID, SYSTEM_BUS, ITERATION_REPORT, \
     report_memory
 from base64 import b64encode
 
@@ -10,13 +10,14 @@ from os import urandom, getpid
 
 
 count = 0
+bus = None
 
 
 @dbus_interface(DEMO_SERVICE_ID.interface_name)
 class DemoServer(object):
 
     # append some random padding to name so we can see the memory increase in top.
-    # noinspection PyPep8Naming
+    # noinspection PyPep8Naming,PyMethodMayBeStatic
     def GetData(self, name: Str) -> Str:
         global count
 

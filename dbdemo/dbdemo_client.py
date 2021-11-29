@@ -3,7 +3,7 @@
 import time
 from os import getpid
 from dasbus.connection import SystemMessageBus
-from .demo_common import DEMO_INTERFACE, DEMO_OBJECT_PATH, ITERATION_REPORT, \
+from .dbdemo_common import DEMO_INTERFACE, DEMO_OBJECT_PATH, ITERATION_REPORT, \
     ITERATION_LIMIT, report_memory
 
 print('Client PID {}'.format(getpid()))

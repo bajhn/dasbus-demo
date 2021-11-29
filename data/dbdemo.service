@@ -1,5 +1,5 @@
 [Unit]
-Description=Demo Dbus interface
+Description=Demonstrate dasbus memory leak.
 Wants=sys-subsystem-net-devices-wwan0.device
 After=sys-subsystem-net-devices-wwan0.device
 Wants=ModemManager.service
@@ -10,8 +10,8 @@ After=systemd-networkd.service
 [Service]
 Type=dbus
 Environment="LOG_LEVEL=DEBUG"
-ExecStart=/usr/bin/python3 -m mmg.demo_server
-BusName=com.example.demo
+ExecStart=/usr/bin/dbdemo_server
+BusName=com.example.dbdemo
 Restart=on-failure
 SyslogFacility=local7
 
