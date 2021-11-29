@@ -1,0 +1,26 @@
+2021-11-29 20:33:49,077 834 Client PID 834
+2021-11-29 20:33:49,080 834 PID=834 count=0  size=6680  resident=5652  shared=2349  text=2 data=3376
+2021-11-29 20:33:49,081 834 Connecting to the system bus.
+2021-11-29 20:33:49,082 834 Connecting to the system bus.
+2021-11-29 20:33:51,280 834 PID=834 count=500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:33:53,441 834 PID=834 count=1000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:33:55,589 834 PID=834 count=1500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:33:57,736 834 PID=834 count=2000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:33:59,844 834 PID=834 count=2500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:01,997 834 PID=834 count=3000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:04,126 834 PID=834 count=3500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:06,229 834 PID=834 count=4000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:08,379 834 PID=834 count=4500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:10,506 834 PID=834 count=5000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:12,680 834 PID=834 count=5500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:14,809 834 PID=834 count=6000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:16,926 834 PID=834 count=6500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:19,063 834 PID=834 count=7000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:21,233 834 PID=834 count=7500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:23,385 834 PID=834 count=8000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:25,510 834 PID=834 count=8500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:27,656 834 PID=834 count=9000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:29,825 834 PID=834 count=9500  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:32,011 834 Final memory report
+2021-11-29 20:34:32,012 834 PID=834 count=10000  size=43579  resident=5820  shared=2460  text=2 data=7571
+2021-11-29 20:34:32,012 834 something: data=HD+Jh/SYYEtTNvb+I5rh9j/6GoRsjfym/JEzh2U28GEzJeaWZs6ezviA65CJ+VRT3mOX/cO9U/TxdaTJuStCE+v7V2mutH8y5tgolA61gsKj6dSdfI87c2L11ZEYcTu3nHOq0hh/x6+ATMwNYC69ukDsVIAahZeigdeUKIWreV8jpurTl2C6vMiF6HodW2+oYguVGzlYLlLqLkAWLxr6piq80PTYPZEoUwJOdIG9L8tbVIwYfATVL/U8GMJdw4HUrgu4SeXnQrRXC7lxnMNFCvDGmxs9x3/mCAy5OuFBBh2dwRIhbG7FlDNrNYsi+sPcKWe7pV92QrnB+RXgyJqH6pzhhg/boEqm+Gzt3+eYXGnxXd1CYCXFZ6jAzUwLeNTN6nvB0vEYpt8oi0lPVTSLX3/18G3bIpoC3T64Egxx/7RbgB6p7KQwHA++AmGLytuTkdxi6sy1WvNFmXOmVCJ55xQUwQNtvNCGQpfE+0WMnVTXxJnXq4PsLhGi2+cVL6nd0bKoKO85XuRNoGzoh6+k5haCOq8ScprTkYguvdadSEkUKe1pPJG9xaSVVZmqP01bhwEt/Kc+ittQuHvR3TR3QfMjBxK/DSyk2BzgadaNT+f72SZAyzezR1NHQ/ViVxU3w6iTr9fE9PpoymSLkURCcEQbEVlnEYf7yWmJwznqy4dUESKSbGsRIBo5oTLofQPNRUC/duTVFunVQZvlZLAoHH1S2JB8Wr8jzIX6k3nEGd85aBsvzPfAL7T3pOZfjFPAWm/ZL3r2eTDxNJ+YetG2LibxJTo5lmjy8x0on6r2YJ9ZXI73dk+0g8tJJgHnrUmPvrCoPJA5mXjmIA4S3k8b93BpH//SCDp+CLdPQsXNK5iZzCM8pW2NK5um90Yrvats9/X6TUlXWlhbyjFctKiUJVpv2pM799mMVcxYm8MefP50T/Dw6aYqoQxKUIPW35PSlt4osn89hROW8BWKOOOAYtnyZOOXPHc6EmRMgVd6eIQBvTt8Yzthc6qiGPviSJ4UEgzFf5kvAYOj6YbEF8dYVkCQr9Kjd0vE4F+eP60YLcMvcdZX3U+EbEzZgHkwHN8SCsHJqF7iiVDcvgztzudS6TEPuW05tewEBkGNlW9sEWgiNZaGOo8zng3/Lb2xC8u2YXuGp9zCb254sl4rh7FrS0cU9igfAHAiazlnuhdlAdg/1Ph+bFpiHBBZX9yGWqAdP2Wthp3MVIVD5zRzo47lK3mkf6ghGaZjtpdVVrRvlmX/P2Ld3TDx+JW8N5PRCa3awWi5W3GVUwVgooVAsOt6ExiSqltWX7ZSu1jb3M4VBivIY7CI2osCzCPRDzeRgQKYVkdlJSXj0REkfYadw7lAFA==

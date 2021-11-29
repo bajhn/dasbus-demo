@@ -1,0 +1,25 @@
+2021-11-29 20:42:41,330 885 Server PID 885
+2021-11-29 20:42:41,331 885 Publishing an object at /com/example/dbdemo.
+2021-11-29 20:42:41,331 885 Connecting to the system bus.
+2021-11-29 20:42:41,332 885 Connecting to the system bus.
+2021-11-29 20:42:41,346 885 Registering a service name com.example.dbdemo.
+2021-11-29 20:42:59,753 885 PID=885 count=0  size=43698  resident=5909  shared=2486  text=2 data=7680
+2021-11-29 20:43:01,877 885 PID=885 count=500  size=43797  resident=6181  shared=2496  text=2 data=7890
+2021-11-29 20:43:03,979 885 PID=885 count=1000  size=43929  resident=6445  shared=2496  text=2 data=8143
+2021-11-29 20:43:06,051 885 PID=885 count=1500  size=44061  resident=6643  shared=2496  text=2 data=8393
+2021-11-29 20:43:08,140 885 PID=885 count=2000  size=44160  resident=6907  shared=2496  text=2 data=8609
+2021-11-29 20:43:10,220 885 PID=885 count=2500  size=44292  resident=7171  shared=2496  text=2 data=8857
+2021-11-29 20:43:12,308 885 PID=885 count=3000  size=44391  resident=7369  shared=2496  text=2 data=9070
+2021-11-29 20:43:14,380 885 PID=885 count=3500  size=44523  resident=7567  shared=2496  text=2 data=9315
+2021-11-29 20:43:16,439 885 PID=885 count=4000  size=44622  resident=7831  shared=2496  text=2 data=9526
+2021-11-29 20:43:18,509 885 PID=885 count=4500  size=44754  resident=8095  shared=2496  text=2 data=9771
+2021-11-29 20:43:20,570 885 PID=885 count=5000  size=44853  resident=8293  shared=2496  text=2 data=9982
+2021-11-29 20:43:22,659 885 PID=885 count=5500  size=44985  resident=8491  shared=2496  text=2 data=10225
+2021-11-29 20:43:24,744 885 PID=885 count=6000  size=45117  resident=8755  shared=2496  text=2 data=10469
+2021-11-29 20:43:26,827 885 PID=885 count=6500  size=45216  resident=8953  shared=2496  text=2 data=10680
+2021-11-29 20:43:28,904 885 PID=885 count=7000  size=45348  resident=9217  shared=2496  text=2 data=10924
+2021-11-29 20:43:30,964 885 PID=885 count=7500  size=45447  resident=9415  shared=2496  text=2 data=11134
+2021-11-29 20:43:33,052 885 PID=885 count=8000  size=45579  resident=9679  shared=2496  text=2 data=11377
+2021-11-29 20:43:35,094 885 PID=885 count=8500  size=45678  resident=9877  shared=2496  text=2 data=11588
+2021-11-29 20:43:37,166 885 PID=885 count=9000  size=45810  resident=10141  shared=2496  text=2 data=11831
+2021-11-29 20:43:39,236 885 PID=885 count=9500  size=45909  resident=10405  shared=2496  text=2 data=12042

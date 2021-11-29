@@ -1,0 +1,25 @@
+2021-11-29 20:26:52,679 493 Server PID 493
+2021-11-29 20:26:52,680 493 Publishing an object at /com/example/dbdemo.
+2021-11-29 20:26:52,680 493 Connecting to the system bus.
+2021-11-29 20:26:52,681 493 Connecting to the system bus.
+2021-11-29 20:26:52,695 493 Registering a service name com.example.dbdemo.
+2021-11-29 20:33:49,110 493 PID=493 count=0  size=43689  resident=5940  shared=2458  text=2 data=7671
+2021-11-29 20:33:51,284 493 PID=493 count=500  size=43821  resident=6216  shared=2472  text=2 data=7914
+2021-11-29 20:33:53,445 493 PID=493 count=1000  size=43953  resident=6480  shared=2472  text=2 data=8164
+2021-11-29 20:33:55,593 493 PID=493 count=1500  size=44085  resident=6678  shared=2472  text=2 data=8414
+2021-11-29 20:33:57,740 493 PID=493 count=2000  size=44217  resident=6942  shared=2472  text=2 data=8661
+2021-11-29 20:33:59,848 493 PID=493 count=2500  size=44349  resident=7206  shared=2472  text=2 data=8907
+2021-11-29 20:34:02,001 493 PID=493 count=3000  size=44481  resident=7470  shared=2472  text=2 data=9155
+2021-11-29 20:34:04,130 493 PID=493 count=3500  size=44613  resident=7668  shared=2472  text=2 data=9400
+2021-11-29 20:34:06,232 493 PID=493 count=4000  size=44745  resident=7932  shared=2472  text=2 data=9644
+2021-11-29 20:34:08,382 493 PID=493 count=4500  size=44877  resident=8196  shared=2472  text=2 data=9887
+2021-11-29 20:34:10,510 493 PID=493 count=5000  size=45009  resident=8394  shared=2472  text=2 data=10132
+2021-11-29 20:34:12,683 493 PID=493 count=5500  size=45108  resident=8658  shared=2472  text=2 data=10344
+2021-11-29 20:34:14,813 493 PID=493 count=6000  size=45240  resident=8922  shared=2472  text=2 data=10587
+2021-11-29 20:34:16,930 493 PID=493 count=6500  size=45372  resident=9120  shared=2472  text=2 data=10831
+2021-11-29 20:34:19,066 493 PID=493 count=7000  size=45504  resident=9318  shared=2472  text=2 data=11074
+2021-11-29 20:34:21,237 493 PID=493 count=7500  size=45636  resident=9582  shared=2472  text=2 data=11317
+2021-11-29 20:34:23,389 493 PID=493 count=8000  size=45768  resident=9780  shared=2472  text=2 data=11560
+2021-11-29 20:34:25,513 493 PID=493 count=8500  size=45900  resident=10044  shared=2472  text=2 data=11804
+2021-11-29 20:34:27,659 493 PID=493 count=9000  size=46032  resident=10308  shared=2472  text=2 data=12045
+2021-11-29 20:34:29,828 493 PID=493 count=9500  size=46131  resident=10506  shared=2472  text=2 data=12255
