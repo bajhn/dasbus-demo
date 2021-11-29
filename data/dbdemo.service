@@ -1,9 +1,5 @@
 [Unit]
 Description=Demonstrate dasbus memory leak.
-Wants=sys-subsystem-net-devices-wwan0.device
-After=sys-subsystem-net-devices-wwan0.device
-Wants=ModemManager.service
-After=ModemManager.service
 Wants=systemd-networkd.service
 After=systemd-networkd.service
 
@@ -13,7 +9,6 @@ Environment="LOG_LEVEL=DEBUG"
 ExecStart=/usr/bin/dbdemo_server
 BusName=com.example.dbdemo
 Restart=on-failure
-SyslogFacility=local7
 
 [Install]
 WantedBy=multi-user.target

@@ -1,31 +1,35 @@
 import signal
 from gi.repository import GLib
 from dasbus.server.interface import dbus_interface
-from dasbus.typing import Structure, Variant, Str
+from dasbus.typing import Str
 from .dbdemo_common import DEMO_SERVICE_ID, SYSTEM_BUS, ITERATION_REPORT, \
-    report_memory
+    report_memory, setup_logger
 from base64 import b64encode
-
 from os import urandom, getpid
 
-
-count = 0
 bus = None
+logger = setup_logger('dbdemo_server')
+REPORTING_TIME_LIMIT = 180  # Stop logging memory reports after this limit.
+DELAY = 5
+STATIC_STRING = 'See the quick brown fox jump over the lazy dog.' * 22
 
 
 @dbus_interface(DEMO_SERVICE_ID.interface_name)
 class DemoServer(object):
 
-    # append some random padding to name so we can see the memory increase in top.
+    def __init__(self):
+        self.count = 0
+
+    # Append some random padding to name so we can see the memory increase in
+    # top. Random padding is used so that Python doesn't reuse the same object
+    # for the input value.
     # noinspection PyPep8Naming,PyMethodMayBeStatic
     def GetData(self, name: Str) -> Str:
-        global count
-
-        if count % ITERATION_REPORT == 0:
-            report_memory(count)
-        count += 1
-        return '{}: pid={}, data={}'.format(name, getpid(),
-                                            b64encode(urandom(1024)).decode('utf-8'))
+        if self.count % ITERATION_REPORT == 0:
+            report_memory(self.count)
+        self.count += 1
+        # return STATIC_STRING
+        return '{}: data={}'.format(name, b64encode(urandom(1024)).decode('utf-8'))
 
 
 def init_dbus_service() -> DemoServer:
@@ -38,7 +42,7 @@ def init_dbus_service() -> DemoServer:
 
 
 def signal_handler(loop):
-    print('Signal handler terminating main loop.')
+    logger.debug('Signal handler terminating main loop.')
     loop.quit()
 
 
@@ -52,8 +56,8 @@ def main():
         GLib.PRIORITY_HIGH, signal.SIGTERM, signal_handler, main_loop)
     GLib.unix_signal_add(
         GLib.PRIORITY_HIGH, signal.SIGINT, signal_handler, main_loop)
-    print('Server PID {}'.format(getpid()))
-    report_memory(count)
+    logger.debug('Server PID {}'.format(getpid()))
+    # noinspection PyUnusedLocal
     d = init_dbus_service()
     # noinspection PyUnresolvedReferences
     main_loop.run()
